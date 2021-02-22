@@ -20,6 +20,18 @@ Route::get('/', function () {
 Route::get('inicio', function () {
     return view('/inicio');
 });
+Route::get('media_superior', function () {
+    return view('/media_superior');
+});
+Route::get('licenciatura_ingenieria', function () {
+    return view('/licenciatura_ingenieria');
+});
+Route::get('maestria', function () {
+    return view('/maestria');
+});
+Route::get('pre_registro', function () {
+    return view('/pre_registro');
+});
 
 Route::get('/login', function () {
     return view('login');

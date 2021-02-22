@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>@yield('title',"Bienvenidos Plataforma CACI")</title>
+    <title>@yield('title',"Bienvenidos Plataforma EDUCAD")</title>
     <meta charset="utf-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -98,9 +98,9 @@
                                 Oferta Academica
                             </a>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">Media Superior</a>
-                                <a class="dropdown-item" href="#">Licenciatura e Ingeniería</a>
-                                <a class="dropdown-item" href="#">Maestría</a>
+                                <a class="dropdown-item" href="{{url('media_superior')}}">Media Superior</a>
+                                <a class="dropdown-item" href="{{url('licenciatura_ingenieria')}}">Licenciatura e Ingeniería</a>
+                                <a class="dropdown-item" href="{{url('maestria')}}">Maestría</a>
                             </div>
                         </li>
                         <li class="kt-menu__item kt-menu__item--submenu kt-menu__item--rel dropdown">
